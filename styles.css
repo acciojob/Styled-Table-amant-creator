@@ -1,1 +1,16 @@
 /* your code */
+thead{
+	background-color:aqua;
+}
+tbody > tr:nth-child(even){
+	background-color:grey;
+	text-align: center;
+}
+tbody > tr:nth-child(odd){
+	/*background-color:grey;*/
+	text-align: center;
+}
+table {
+/*border-collapse:collapse;*/
+	border-radius:50px;
+}
